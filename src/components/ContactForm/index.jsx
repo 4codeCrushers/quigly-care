@@ -79,7 +79,7 @@ function ContactForm() {
             <label htmlFor="validationCustomEmail">Email</label>
             <input type="email" className={`form-control ${errors.email ? 'is-invalid' : ''}`}
               id="validationCustomEmail" name="email" placeholder="Email" aria-describedby="inputGroupPrepend"
-              value={formData.email} onChange={handleInputChange}/>
+              value={formData.email} onChange={handleInputChange} autoComplete="email"/>
             <div className="invalid-feedback">{errors.email}</div>
           </div>
           <div className="col-md-6 mb-3">

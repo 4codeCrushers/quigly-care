@@ -1,0 +1,36 @@
+.jumbotron {
+  background-image: url('https://placehold.co/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 20px; 
+}
+
+.jumbotron h2 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.jumbotron p {
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-top: 25px; 
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
+.left-image {
+  margin-left: -10px;
+}
+
+.right-image {
+  margin-left: 10px;
+}

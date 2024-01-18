@@ -2,7 +2,6 @@ import './style.css'
 import React, { useState } from 'react';
 
 function ContactForm() {
-
   const [formData, setFormData] = useState({
     firstName: '', lastName: '',
     email: '', subject: '',
@@ -40,6 +39,15 @@ function ContactForm() {
 
     if (!Object.values(newErrors).some((error) => error !== '')) {
       console.log('Form submitted:', formData);
+
+      // clears form when successful
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
     }
   };
 
@@ -48,8 +56,9 @@ function ContactForm() {
       <h1>Enquiries</h1>
       <p>We would love to hear from you!</p>
       <p>Please fill out the contact form below.</p>
-      <form className="needs-validation" onSubmit={handleSubmit}>
-      <div className="form-row">
+      <form action="https://api.web3forms.com/submit" method="POST" className="needs-validation" onSubmit={handleSubmit}>
+        <input type="hidden" name="access_key" value="527c38b8-28d0-45d3-8ab8-92b892f2f253"/>
+        <div className="form-row">
           <div className="col-md-6 mb-3">
             <label htmlFor="validationCustomFirstName">First name</label>
             <input type="text" className={`form-control ${errors.firstName ? 'is-invalid' : ''}`}
@@ -68,7 +77,7 @@ function ContactForm() {
         <div className="form-row">
           <div className="col-md-6 mb-3">
             <label htmlFor="validationCustomEmail">Email</label>
-            <input type="text" className={`form-control ${errors.email ? 'is-invalid' : ''}`}
+            <input type="email" className={`form-control ${errors.email ? 'is-invalid' : ''}`}
               id="validationCustomEmail" name="email" placeholder="Email" aria-describedby="inputGroupPrepend"
               value={formData.email} onChange={handleInputChange}/>
             <div className="invalid-feedback">{errors.email}</div>
@@ -93,11 +102,11 @@ function ContactForm() {
         </div>
 
         <button className="btn btn-primary" type="submit">
-          Submit form
+          Submit
         </button>
       </form>
     </div>
   );
 }
 
-export default ContactForm
+export default ContactForm;

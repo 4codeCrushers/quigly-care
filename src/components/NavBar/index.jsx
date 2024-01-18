@@ -1,6 +1,6 @@
 import './style.css'
 import { useState } from 'react'
-import { Navbar, Container, Nav, Dropdown } from 'react-bootstrap'
+import { Navbar, Container, Dropdown } from 'react-bootstrap'
 import { Twirl as Hamburger } from 'hamburger-react'
 import logo from '/assets/images/qc-logo.jpg'
 import sections from '../../data/sections.json'
@@ -21,6 +21,8 @@ function NavBar() {
               className="d-inline-block align-top"
             />
           </Navbar.Brand>
+        </Container>
+        <Container className="d-flex justify-content-end">
           <Hamburger toggled={isOpen} toggle={setOpen} />
           <Dropdown className={`navbar-menu ${isOpen ? 'active' : ''}`}>
             {isOpen && (

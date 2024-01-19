@@ -1,0 +1,12 @@
+.dropdown {
+  display: none;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  /* Position the dropdown below the navbar */
+  left: 0;
+}
+
+.dropdown.open {
+  display: block;
+}

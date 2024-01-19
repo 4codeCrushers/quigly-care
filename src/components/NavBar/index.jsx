@@ -32,11 +32,11 @@ const NavBar = () => {
           <Container className="d-flex justify-content-end">
             <div>
               <Hamburger toggled={isDropdownOpen} toggle={toggleDropdown} />
-              <Dropdown isOpen={isDropdownOpen} onClose={closeDropdown} />
             </div>
           </Container>
         </Container>
       </Navbar>
+      <Dropdown isOpen={isDropdownOpen} onClose={closeDropdown} />
     </div>
   );
 };

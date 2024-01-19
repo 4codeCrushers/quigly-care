@@ -1,9 +1,8 @@
 .dropdown {
   display: none;
-  background-color: yellow;
+  background-color: rgb(191, 226, 216);
   position: absolute;
   top: 0;
-  /* Position the dropdown below the navbar */
   left: 0;
 }
 

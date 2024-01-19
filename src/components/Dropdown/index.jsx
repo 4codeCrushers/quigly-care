@@ -12,15 +12,14 @@ const Dropdown = ({ isOpen }) => {
 
   return (
     <div className={`dropdown ${isOpen ? 'open' : ''}`}>
-      <ul style={{ listStyle: 'none' }}>
+      <ul style={{ listStyle: 'none', margin: 0, padding: 0 }}>
         {sections.map((section) => (
-          <li key={section.title} className="">
+          <li key={section.title} className="dropdown-links">
             <a
               onClick={handleItemClick}
-              className="flex items-center justify-between w-full p-5 rounded-xl bg-neutral-950"
               href={section.href}
             >
-              <span className="flex gap-1">{section.title}</span>
+              <span>{section.title}</span>
             </a>
           </li>
         ))}

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Twirl as Hamburger } from 'hamburger-react';
 import Dropdown from '../Dropdown';
 import { Navbar, Container } from 'react-bootstrap';
-import logo from '/public/assets/images/qc-logo.jpg';
+import logo from '/assets/images/qc-logo.jpg';
 import './style.css';
 
 const NavBar = () => {

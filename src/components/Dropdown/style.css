@@ -1,0 +1,33 @@
+/* Styling for Dropdown */
+.dropdown {
+  display: none;
+  background-color: rgb(191, 226, 216);
+}
+
+.dropdown.open {
+  display: block;
+}
+
+.dropdown-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.dropdown-links a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-links a:hover {
+  background-color: rgb(191, 226, 26);
+}

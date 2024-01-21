@@ -1,4 +1,5 @@
 import './style.css'
+import useWeb3Forms from "@web3forms/react";
 import React, { useState } from 'react';
 
 function ContactForm() {
@@ -21,7 +22,23 @@ function ContactForm() {
       [name]: value,
     });
   };
-  const handleSubmit = (e) => {
+
+  const accessKey = "527c38b8-28d0-45d3-8ab8-92b892f2f253";
+  const { submit } = useWeb3Forms({
+    access_key: accessKey,
+    settings: {
+      from_name: "Quigly Care - New Message",
+      subject: "New Contact Message from Quigly Care",
+    },
+    onSuccess: (message, data) => {
+      console.log(message);
+    },
+    onError: (message, data) => {
+      console.log(message);
+    },
+  });
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     // error messages
@@ -40,14 +57,20 @@ function ContactForm() {
     if (!Object.values(newErrors).some((error) => error !== '')) {
       console.log('Form submitted:', formData);
 
-      // clears form when successful
-      setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        subject: '',
-        message: '',
-      });
+      try {
+        const response = await submit(formData);
+        console.log(response);
+        // clears form when successful
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
+      } catch (error) {
+        console.error('Form submission failed:', error);
+      }
     }
   };
 
@@ -57,7 +80,6 @@ function ContactForm() {
       <p>We would love to hear from you!</p>
       <p>Please fill out the contact form below.</p>
       <form action="https://api.web3forms.com/submit" method="POST" className="needs-validation" onSubmit={handleSubmit}>
-        <input type="hidden" name="access_key" value="527c38b8-28d0-45d3-8ab8-92b892f2f253"/>
         <div className="form-row">
           <div className="col-md-6 mb-3">
             <label htmlFor="validationCustomFirstName">First name</label>

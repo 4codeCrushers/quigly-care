@@ -1,0 +1,45 @@
+.carousel-container {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+  
+.carousel-item-one,
+.carousel-item-two,
+.carousel-item-three {
+  position: relative;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
+}
+  
+.carousel-image {
+  width: 100%;
+  object-fit: cover;
+  grid-column: 1;
+}
+  
+.carousel-text {
+  padding: 18px;
+  margin-right: 32px;
+  box-sizing: border-box;
+  grid-column: 2;
+}
+  
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  z-index: 1;
+}
+  
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  margin: 15px 15px; 
+  background-color: #199bb8;
+  border-radius: 50%;
+}

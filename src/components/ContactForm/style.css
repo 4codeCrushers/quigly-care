@@ -46,4 +46,9 @@ body.hidden-contact-form {
     right: 25px;
     font-size: 160%;
     color: black;
-  }
+}
+
+#success-message {
+    color: green;
+    font-size: 2vmin;
+}

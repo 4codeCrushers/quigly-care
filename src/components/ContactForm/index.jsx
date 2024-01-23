@@ -1,8 +1,8 @@
-import './style.css'
+import './style.css';
 import { useState } from 'react';
 import useWeb3Forms from "@web3forms/react";
 
-function ContactForm() {
+function ContactForm({ showForm, onClose }) {
   const [formData, setFormData] = useState({
     firstName: '', lastName: '',
     email: '', subject: '',
@@ -70,6 +70,7 @@ function ContactForm() {
           subject: '',
           message: '',
         });
+        onClose();
       } catch (error) {
         console.error('Form submission failed:', error);
       }
@@ -77,7 +78,7 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div className={`contact-form-container ${showForm ? 'visible' : 'hidden'}`}>
       <h1>Enquiries</h1>
       <p>We would love to hear from you!</p>
       <p>Please fill out the contact form below.</p>

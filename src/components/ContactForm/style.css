@@ -1,0 +1,38 @@
+.contact-form-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 1000px;
+    margin-left: auto;
+    overflow-y: auto;
+    display: none;
+}
+  
+.contact-form-container.visible {
+    display: block;
+}
+  
+.contact-form-container.hidden {
+    display: none;
+}
+  
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+  
+body.hidden-contact-form {
+    overflow: auto;
+}
+  

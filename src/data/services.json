@@ -1,0 +1,58 @@
+{
+    "tabs": [
+      {
+        "id": "tab1",
+        "title": "Administration of Medicines",
+        "content": "Our qualified caregivers are proficient in managing medication schedules, ensuring the right dosage at the right time.",
+        "image": "assets/images/tabOneImage.jpg"
+      },
+      {
+        "id": "tab2",
+        "title": "Personal Care",
+        "content": "From catheter care to stoma and peg feeding, we provide discreet and compassionate assistance with personal hygiene and specialised medical needs.",
+        "image": "assets/images/tabTwoImage.jpg"
+      },
+      {
+        "id": "tab3",
+        "title": "Hoisting and Mobility Support",
+        "content": "Our skilled professionals are trained in safe hoisting techniques, including track systems, to facilitate mobility and independence.",
+        "image": "assets/images/tabThreeImage.jpg"
+      },
+      {
+        "id": "tab4",
+        "title": "Dementia Care",
+        "content": "We have expertise in all stages of dementia, providing customised care plans to address cognitive, emotional, and physical needs.",
+        "image": "assets/images/tabFourImage.jpg"
+      },
+      {
+        "id": "tab5",
+        "title": "Palliative Care",
+        "content": "Palliative Care: Our empathetic team offers specialised care for individuals with advanced illnesses, focusing on comfort, pain management, and emotional support.",
+        "image": "assets/images/tabFiveImage.jpg"
+      },
+      {
+        "id": "tab6",
+        "title": "Disabilities and Conditions",
+        "content": "QuiglyCare is experienced in supporting a wide range of disabilities and conditions, tailoring care plans to promote independence and well-being.",
+        "image": "assets/images/tabSixImage.jpg"
+      },
+      {
+        "id": "tab7",
+        "title": "Food Preparation",
+        "content": "We understand the importance of nutritious meals and can assist with meal planning, preparation, and special dietary needs.",
+        "image": "assets/images/tabSevenImage.jpg"
+      },
+      {
+        "id": "tab8",
+        "title": "Administrative Duties",
+        "content": "Our caregivers can lend a hand with administrative tasks, such as appointment scheduling, medication management, and coordination of healthcare services.",
+        "image": "assets/images/tabEightImage.jpg"
+      },
+      {
+        "id": "tab9",
+        "title": "Companionship and Friendship",
+        "content": "Beyond caregiving, we provide companionship and foster meaningful relationships, ensuring your loved ones have social interaction and emotional support.",
+        "image": "assets/images/tabNineImage.jpg"
+      }
+    ]
+}

@@ -1,0 +1,27 @@
+.team-section-heading {
+  margin-bottom: 20px;
+}
+
+.services-container {
+  margin-bottom: 30px;
+}
+
+.services-tab {
+  display: flex;
+  align-items: center;
+}
+  
+.nav-pills .nav-link {
+  margin-bottom: 10px;
+}
+
+.services-tab img {
+  max-width: 400px;
+  max-height: 400px;
+  margin-right: 20px;
+}
+  
+.card-img-top {
+  max-height: 320px;
+  object-fit: cover;
+}

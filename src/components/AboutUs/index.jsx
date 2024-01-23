@@ -5,7 +5,7 @@ import aboutUsData from '../../data/aboutUsData.json';
 
 function AboutUs() {
   return (
-    <div>
+    <div id="about">
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <h2 className="display-4">{aboutUsData.title}</h2>

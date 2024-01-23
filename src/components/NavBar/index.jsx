@@ -27,12 +27,12 @@ const NavBar = () => {
   };
 
   return (
-    <div className="navbar-container">
+    <div className="navbar-container" id=" navbar">
       <Navbar className="bg-dark-subtle navbar">
         <Container>
           <Navbar.Brand href="#home">
             <img
-              alt=""
+              alt="logo"
               src={logo}
               width="180"
               height="80"

@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import teamData from '../../data/teamData.json';
 import slideOneImage from '/assets/images/slideOneImage.jpg';

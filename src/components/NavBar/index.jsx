@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Twirl as Hamburger } from 'hamburger-react';
 import Dropdown from '../Dropdown';
 import { Navbar, Container } from 'react-bootstrap';

@@ -1,6 +1,6 @@
 import './style.css'
+import { useState } from 'react';
 import useWeb3Forms from "@web3forms/react";
-import React, { useState } from 'react';
 
 function ContactForm() {
   const [formData, setFormData] = useState({

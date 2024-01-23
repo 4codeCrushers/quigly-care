@@ -23,8 +23,9 @@ function ContactForm() {
     });
   };
 
-  const accessKey = "527c38b8-28d0-45d3-8ab8-92b892f2f253"; // web3forms API access key - https://web3forms.com/
-  
+  // Load environment variables from .env file
+  const accessKey = import.meta.env.VITE_ACCESS_KEY;
+
   const { submit } = useWeb3Forms({
     access_key: accessKey,
     settings: {

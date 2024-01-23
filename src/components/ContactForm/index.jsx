@@ -116,7 +116,7 @@ return (
           <div className="invalid-feedback">{errors.subject}</div>
         </div>
       </div>
-      <div className="form-group">
+      <div className="form-group message-container">
         <label htmlFor="validationCustomMessage">Message</label>
         <textarea className={`form-control ${errors.message ? 'is-invalid' : ''}`}
           id="validationCustomMessage" name="message" placeholder="Message"
@@ -125,7 +125,7 @@ return (
         </textarea>
         <div className="invalid-feedback">{errors.message}</div>
       </div>
-      <button className="btn btn-primary" type="submit">
+      <button className="btn btn-primary" id="submit-button" type="submit">
         Submit
       </button>
     </form>

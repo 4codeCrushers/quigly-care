@@ -35,4 +35,7 @@
 body.hidden-contact-form {
     overflow: auto;
 }
-  
+
+#submit-button, .row, .message-container {
+    margin-top: 10px;
+}

@@ -41,7 +41,7 @@ const NavBar = () => {
           </Navbar.Brand>
           <Container className="d-flex justify-content-end">
             <div>
-              <button type="button" className="btn btn-primary" onClick={toggleContactForm}>
+              <button type="button" className="btn btn-primary enquire-button" onClick={toggleContactForm}>
                 Enquire Now
               </button>
             </div>

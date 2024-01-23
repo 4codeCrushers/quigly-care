@@ -39,3 +39,11 @@ body.hidden-contact-form {
 #submit-button, .row, .message-container {
     margin-top: 10px;
 }
+
+.close-button {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 160%;
+    color: black;
+  }

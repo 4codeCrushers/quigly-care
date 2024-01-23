@@ -79,20 +79,21 @@ function ContactForm({ showForm, onClose }) {
 
 return (
   <div className={`contact-form-container ${showForm ? 'visible' : 'hidden'}`}>
+    <button type="button" className="btn-close close-button" aria-label="Close" onClick={onClose}></button>
     <h1>Enquiries</h1>
     <p>We would love to hear from you!</p>
     <p>Please fill out the contact form below.</p>
     <form action="https://api.web3forms.com/submit" method="POST" className="needs-validation" onSubmit={handleSubmit}>
       <div className="form-group row">
         <div className="col-md-6">
-          <label htmlFor="validationCustomFirstName">First name</label>
+          <label htmlFor="validationCustomFirstName">First Name</label>
           <input type="text" className={`form-control ${errors.firstName ? 'is-invalid' : ''}`}
             id="validationCustomFirstName" name="firstName" placeholder="First Name"
             value={formData.firstName} onChange={handleInputChange}/>
           <div className="invalid-feedback">{errors.firstName}</div>
         </div>
         <div className="col-md-6">
-          <label htmlFor="validationCustomLastName">Last name</label>
+          <label htmlFor="validationCustomLastName">Last Name</label>
           <input type="text" className={`form-control ${errors.lastName ? 'is-invalid' : ''}`}
             id="validationCustomLastName" name="lastName" placeholder="Last Name"
             value={formData.lastName} onChange={handleInputChange}/>

@@ -2,11 +2,13 @@ import { useState } from 'react';
 import { Twirl as Hamburger } from 'hamburger-react';
 import Dropdown from '../Dropdown';
 import { Navbar, Container } from 'react-bootstrap';
+import ContactForm from '../ContactForm/index.jsx'; // Import the ContactForm component
 import logo from '/assets/images/qc-logo.jpg';
 import './style.css';
 
 const NavBar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
+  const [showContactForm, setShowContactForm] = useState(false);
 
   const toggleDropdown = () => {
     setDropdownOpen((prev) => !prev);
@@ -14,6 +16,14 @@ const NavBar = () => {
 
   const closeDropdown = () => {
     setDropdownOpen(false);
+  };
+
+  const toggleContactForm = () => {
+    setShowContactForm((prev) => !prev);
+  };
+
+  const closeContactForm = () => {
+    setShowContactForm(false);
   };
 
   return (
@@ -31,11 +41,17 @@ const NavBar = () => {
           </Navbar.Brand>
           <Container className="d-flex justify-content-end">
             <div>
+              <button type="button" className="btn btn-primary enquire-button" onClick={toggleContactForm}>
+                Enquire Now
+              </button>
+            </div>
+            <div>
               <Hamburger toggled={isDropdownOpen} toggle={toggleDropdown} />
             </div>
           </Container>
         </Container>
       </Navbar>
+      <ContactForm showForm={showContactForm} onClose={closeContactForm} />
       <Dropdown isOpen={isDropdownOpen} onClose={closeDropdown} />
     </div>
   );

@@ -77,7 +77,7 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div id="contact">
       <h1>Enquiries</h1>
       <p>We would love to hear from you!</p>
       <p>Please fill out the contact form below.</p>

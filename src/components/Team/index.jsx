@@ -2,9 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import teamData from '../../data/teamData.json';
-import slideOneImage from '/public/assets/images/slideOneImage.jpg';
-import slideTwoImage from '/public/assets/images/slideTwoImage.jpg';
-import slideThreeImage from '/public/assets/images/slideThreeImage.jpg';
+import slideOneImage from '/assets/images/slideOneImage.jpg';
+import slideTwoImage from '/assets/images/slideTwoImage.jpg';
+import slideThreeImage from '/assets/images/slideThreeImage.jpg';
 import './style.css';
 
 function Team() {

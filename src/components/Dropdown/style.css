@@ -8,7 +8,7 @@
   display: block;
 }
 
-.dropdown-links {
+.dropdown-link {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
   font-size: 1.5rem;
 }
 
-.dropdown-links a {
+.dropdown-link a {
   text-decoration: none;
   color: black;
   padding: 10px;
@@ -28,6 +28,6 @@
   text-align: center;
 }
 
-.dropdown-links a:hover {
+.dropdown-link a:hover {
   background-color: rgb(191, 226, 26);
 }

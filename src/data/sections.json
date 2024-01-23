@@ -1,14 +1,14 @@
 [
   {
     "title": "About Us",
-    "href": "#about"
+    "href": "about"
   },
   {
     "title": "Meet the Team",
-    "href": "#team"
+    "href": "team"
   },
   {
     "title": "Contact Us",
-    "href": "#contact"
+    "href": "contact"
   }
 ]

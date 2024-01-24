@@ -8,16 +8,16 @@
       "answer": "Pricing is determined after a free initial consultation. During this consultation, our experienced caregivers assess individual care needs to provide a personalised and transparent pricing plan."
     },
     "questionThree": {
-      "question": "What services does QuiglyCare offer?",
-      "answer": "QuiglyCare provides drop-in care services, offering assistance with daily activities, companionship, and support tailored to the unique requirements of each client. Please look at our #SERVICES section of the website for more in depth information on the services we provide."
+        "question": "What services does QuiglyCare offer?",
+        "answer": "QuiglyCare provides drop-in care services, offering assistance with daily activities, companionship, and support tailored to the unique requirements of each client. Please look at our services section of the website for more in-depth information on the services we provide."
     },
     "questionFour": {
         "question": "How long are the care sessions?",
-        "answer": "Care sessions at QuiglyCare are available in two durations: 45 minutes and one hour and 30 minutes, allowing for flexibility to accommodate varying needs. If you would like a specific amount of time outside of this, please contact our team here (link) for us to accommodate you."
+        "answer": "Care sessions at QuiglyCare are available in two durations: 45 minutes and one hour and 30 minutes, allowing for flexibility to accommodate varying needs. If you would like a specific amount of time outside of this, please contact our team for us to accommodate you."
     },
     "questionFive": {
         "question": "How do I book a session with QuiglyCare?",
-        "answer": "To book a session with QuiglyCare, follow these simple steps a. Visit our website: www.quiglycare.co.uk b. Navigate to the 'Book Now' section. c. Choose your preferred session duration (45 minutes or 1 hour and 30 minutes). If this is an initial free consultation, please choose that option instead. d. Fill out the online booking form with your details. e. Select your preferred date and time for the session from the available options. f. Submit the form. /n Once your booking is received, our team will review your request and confirm the availability of the selected time slot (only available time slots should show on website, so this section wording could be changed). You will then receive a confirmation email with details about your upcoming session."
+        "answer": "To book a session with QuiglyCare, follow these simple steps:<br/><br/>a. Visit our website: <a href=\"www.quiglycare.co.uk\">www.quiglycare.co.uk</a><br/>b. Navigate to the 'Book Now' section.<br/>c. Choose your preferred session duration (45 minutes or 1 hour and 30 minutes). If this is an initial free consultation, please choose that option instead.<br/>d. Fill out the online booking form with your details.<br/>e. Select your preferred date and time for the session from the available options.<br/>f. Submit the form.<br/><br/>Once your booking is received, our team will review your request and confirm the availability of the selected time slot (only available time slots should show on the website, so this section wording could be changed).<br/><br/>You will then receive a confirmation email with details about your upcoming session."
     },
     "questionSix": {
         "question": "Is there a minimum or maximum number of sessions I can book?",
@@ -33,7 +33,7 @@
     },
     "questionNine": {
         "question": "How can I cancel or reschedule a booked session?",
-        "answer": "To cancel or reschedule a booked session, please contact our customer support team at least 24 hours in advance.(FUTURE FEATURE - ability to log into website and change bookings themselves). We understand that circumstances may change, and we will work with you to find a suitable alternative."
+        "answer": "To cancel or reschedule a booked session, please contact our customer support team at least 24 hours in advance. We understand that circumstances may change, and we will work with you to find a suitable alternative."
     },
     "questionTen": {
         "question": "How can I contact QuiglyCare for additional information or support?",

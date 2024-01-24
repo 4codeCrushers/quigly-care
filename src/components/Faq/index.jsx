@@ -6,7 +6,7 @@ import React from 'react';
 function Faq() {
   return (
     <div class="faq-container">
-        <h2 className="faq-section-heading">Frquently Asked Questions</h2>
+        <h2 className="faq-section-heading">Frequently Asked Questions</h2>
         <div className="accordian-container">
             <Accordion>
                 <Accordion.Item eventKey="0">

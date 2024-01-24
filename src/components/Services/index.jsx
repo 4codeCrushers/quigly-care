@@ -1,12 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { Tab, Row, Nav, Col, Card, Button } from 'react-bootstrap';
+import { Tab, Row, Nav, Col, Card, Button, Container } from 'react-bootstrap';
 import servicesData from '../../data/services.json';
 import './style.css';
 
 function Services() {
   return (
     <div className="services-container">
+      <Container>
       <h2 className="team-section-heading">Explore our Services</h2>
       <p>We offer a comprehensive range of services designed to meet your specific care requirements. Our highly trained staff is experienced in providing support for:</p>
 
@@ -41,6 +42,7 @@ function Services() {
           </Col>
         </Row>
       </Tab.Container>
+      </Container>
     </div>
   );
 }

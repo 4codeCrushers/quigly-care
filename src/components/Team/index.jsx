@@ -4,10 +4,12 @@ import slideOneImage from '/assets/images/slideOneImage.jpg';
 import slideTwoImage from '/assets/images/slideTwoImage.jpg';
 import slideThreeImage from '/assets/images/slideThreeImage.jpg';
 import './style.css';
+import { Container } from 'react-bootstrap';
 
 function Team() {
   return (
-    <div>
+    <div className="team">
+      <Container>
       <h2 className="team-section-heading" id="team">Meet the Team</h2>
       <div className="carousel-container">
         <Carousel>
@@ -52,6 +54,7 @@ function Team() {
           </Carousel.Item>
         </Carousel>
       </div>
+      </Container>
     </div>
   );
 }

@@ -1,24 +1,24 @@
-import Container from '../components/Container';
 import AboutUs from '../components/AboutUs';
 import ContactForm from '../components/ContactForm';
 import NavBar from '../components/NavBar';
 import Team from '../components/Team';
 import Services from '../components/Services';
 import Faq from '../components/Faq';
+import Hero from '../components/Hero';
 
 function HomePage() {
   return (
-    <Container>
+    <div>
       <NavBar />
-      <div className="home-page">
-        <h1>Welcome to Quigly Care</h1>
+      <div className="sections">
+        <Hero />
         <AboutUs />
         <Services />
         <Team />
         <ContactForm />
         <Faq />
       </div>
-    </Container>
+    </div >
   );
 }
 

@@ -1,3 +1,8 @@
+.team {
+  background-color: #199bb8;
+  padding: 20px 0 50px 0;
+}
+
 .carousel-container {
   position: relative;
   width: 75%;
@@ -5,7 +10,7 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
-  
+
 .carousel-item-one,
 .carousel-item-two,
 .carousel-item-three {
@@ -14,20 +19,20 @@
   grid-template-columns: 70% 30%;
   align-items: center;
 }
-  
+
 .carousel-image {
   width: 100%;
   object-fit: cover;
   grid-column: 1;
 }
-  
+
 .carousel-text {
   padding: 18px;
   margin-right: 32px;
   box-sizing: border-box;
   grid-column: 2;
 }
-  
+
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
@@ -36,10 +41,10 @@
   width: auto;
   z-index: 0;
 }
-  
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  margin: 15px 15px; 
+  margin: 15px 15px;
   background-color: #199bb8;
   border-radius: 50%;
 }

@@ -125,7 +125,7 @@ function Faq() {
                     </Accordion.Header>
                     <Accordion.Body>
                         <div className="accordian-body">
-                            {faqData.questionTen.answer}
+                        <p dangerouslySetInnerHTML={{ __html: faqData.questionTen.answer }} />
                         </div>
                     </Accordion.Body>
                 </Accordion.Item>

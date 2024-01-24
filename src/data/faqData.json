@@ -37,6 +37,6 @@
     },
     "questionTen": {
         "question": "How can I contact QuiglyCare for additional information or support?",
-        "answer": "For further assistance or inquiries, please reach out to our customer support team via email at quiglycare@gmail.com or by phone at 07787580370. We are here to help and ensure thatyour experience with QuiglyCare is smooth and satisfactory."
+        "answer": "For further assistance or inquiries, please reach out to our customer support team via email at <a href=\"mailto:quiglycare@gmail.com\">quiglycare@gmail.com</a> or by phone at <a href=\"tel:07787580370\">077875 80370</a>. We are here to help and ensure thatyour experience with QuiglyCare is smooth and satisfactory."
     }
   }

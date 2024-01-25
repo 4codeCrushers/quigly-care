@@ -4,6 +4,7 @@
     height: 90vh;
     display: flex;
     align-items: center;
+    border-bottom: 5px solid black;
 }
 
 .faq-section-heading {

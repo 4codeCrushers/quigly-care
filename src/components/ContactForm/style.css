@@ -16,16 +16,17 @@
     display: none;
     input { border: 1px solid black; }
     textarea { border: 1px solid black; }
+
 }
-  
+
 .contact-form-container.visible {
     display: block;
 }
-  
+
 .contact-form-container.hidden {
     display: none;
 }
-  
+
 .navbar-container {
     position: fixed;
     top: 0;
@@ -33,7 +34,7 @@
     width: 100%;
     z-index: 1;
 }
-  
+
 body.hidden-contact-form {
     overflow: auto;
 }

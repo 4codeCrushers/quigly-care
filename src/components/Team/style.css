@@ -1,14 +1,23 @@
 .team {
   background-color: #887BB0;
   padding: 20px 0 50px 0;
+  height: 90vh;
+  display: flex;
+    align-items: center;
 }
 
+.team-section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
 .carousel-container {
   position: relative;
   width: 75%;
   margin: 0 auto;
   margin-top: 25px;
   margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-item-one,

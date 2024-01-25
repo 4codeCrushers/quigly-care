@@ -1,5 +1,5 @@
 .hero {
-  background-color: #F4B9B8;
+  background-color: #fab5a9;
   z-index: -2;
   display: flex;
   justify-content: center;
@@ -9,12 +9,18 @@
   border-bottom: 5px solid black;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 hero-heading {
   font-size: 3rem;
 
   margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-style: italic;
+  color: black;
 }
 
 @media (max-width: 400px) {

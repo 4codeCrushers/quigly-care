@@ -9,7 +9,7 @@ function Services() {
     <div className="services-container" id="services">
       <Container>
       <h2 className="team-section-heading">Explore our Services</h2>
-      <p>We offer a comprehensive range of services designed to meet your specific care requirements. Our highly trained staff is experienced in providing support for:</p>
+      <p> At QuiglyCare, we offer a comprehensive range of services designed to meet your specific care requirements. Our highly trained staff is experienced in providing support for:</p>
 
       <Tab.Container id="services-tabs" defaultActiveKey={servicesData.tabs[0].id}>
         <Row>
@@ -33,7 +33,7 @@ function Services() {
                     <Card.Body>
                       <Card.Title>{tab.title}</Card.Title>
                       <Card.Text>{tab.content}</Card.Text>
-                      <Button variant="primary">Read More</Button>
+                      { /*<Button variant="primary">Read More</Button> */}
                     </Card.Body>
                   </Card>
                 </Tab.Pane>

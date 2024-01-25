@@ -11,6 +11,7 @@ function Team() {
     <div className="team" id="team">
       <Container>
       <h2 className="team-section-heading">Meet the Team</h2>
+      <p className="team-section-subheading">At QuiglyCare, we prioritise the comfort, safety, and happiness of our clients. Our dedicated team of skilled professionals is committed to providing top-notch care services, ensuring peace of mind for both elderly individuals and those responsible for their care.</p>
       <div className="carousel-container">
         <Carousel>
           <Carousel.Item>

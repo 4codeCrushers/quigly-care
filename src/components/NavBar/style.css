@@ -1,15 +1,15 @@
 .navbar-container {
-  background-color: white;
-  border-bottom: 5px solid black;
-  border-top: 5px solid black;
-}
-
+    background-color: white;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+  }
+  
 .enquire-button {
-  margin-right: 20px;
-  margin-top: 5px;
-  color: black;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: black;
 }
-
+  
 .enquire-button:hover {
-  color: white;
+    color: white;
 }

@@ -1,5 +1,5 @@
 .team {
-  background-color: #887BB0;
+  background-color:#AFD8F2;
   padding: 0 0 20px 0;
   height: fit-content;
   display: flex;
@@ -11,7 +11,7 @@
 
 .team-section-heading {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .carousel-container {
@@ -42,10 +42,12 @@
 
 .carousel-text {
   margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 25px;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  margin-left: -250px;
+.carousel-control-next-icon {
+  margin-left: 100px;
 }
 
 .carousel-indicators [data-bs-target] {

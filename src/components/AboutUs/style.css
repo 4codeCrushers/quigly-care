@@ -50,8 +50,24 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
 /* Responsive styles for 400x453 device */
 @media (max-width: 400px) {
+  .jumbotron {
+    background-image: url('https://placehold.co/1920x1080');
+    width: 100%;
+    height: auto;
+    justify-content: center; /* Center content vertically */
+  }
+
+  .about-us {
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .col-md-4 {
+    margin-bottom: 5px;
+  }
+
   .jumbotron h2 {
     font-size: 1.5rem;
   }
@@ -69,5 +85,34 @@
   .right-image {
     padding-left: 5px;
     padding-right: 5px;
+  }
+}
+@media (min-width: 401px) and (max-width: 768px) {
+  .jumbotron h2 {
+    font-size: 2rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .jumbotron h2 {
+    font-size: 2.5rem;
+  }
+
+  .jumbotron p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .jumbotron h2 {
+    font-size: 3rem;
+  }
+
+  .jumbotron p {
+    font-size: 1.5rem;
   }
 }

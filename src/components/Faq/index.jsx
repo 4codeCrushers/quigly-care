@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 
 function Faq() {
   return (
-    <div className="faq-container">
+    <div className="faq-container" id="faq">
       <Container>
         <h2 className="faq-section-heading">Frequently Asked Questions</h2>
         <div className="accordian-container">

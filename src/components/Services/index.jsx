@@ -6,7 +6,7 @@ import './style.css';
 
 function Services() {
   return (
-    <div className="services-container">
+    <div className="services-container" id="services">
       <Container>
       <h2 className="team-section-heading">Explore our Services</h2>
       <p>We offer a comprehensive range of services designed to meet your specific care requirements. Our highly trained staff is experienced in providing support for:</p>

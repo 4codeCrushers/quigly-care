@@ -8,9 +8,9 @@ import { Container } from 'react-bootstrap';
 
 function Team() {
   return (
-    <div className="team">
+    <div className="team" id="team">
       <Container>
-      <h2 className="team-section-heading" id="team">Meet the Team</h2>
+      <h2 className="team-section-heading">Meet the Team</h2>
       <div className="carousel-container">
         <Carousel>
           <Carousel.Item>

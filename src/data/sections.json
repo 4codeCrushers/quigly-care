@@ -10,5 +10,13 @@
   {
     "title": "Contact Us",
     "href": "contact"
+  },
+  {
+    "title": "Services",
+    "href": "services"
+  },
+  {
+    "title": "FAQ",
+    "href": "faq"
   }
 ]

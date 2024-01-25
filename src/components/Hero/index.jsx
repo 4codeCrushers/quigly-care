@@ -6,6 +6,7 @@ function Hero() {
     <div className="hero">
       <Container>
         <h1 className="hero-heading">Welcome to Quigly Care!</h1>
+        <h3 className="hero-subtitle">Your Trusted Partner in Exceptional Care</h3>
       </Container>
     </div>
   );

@@ -1,7 +1,7 @@
 /* Styling for Dropdown */
 .dropdown {
   display: none;
-  background-color: rgb(233, 206, 212);
+  background-color: #75E6DA;
 }
 
 .dropdown.open {
@@ -29,5 +29,5 @@
 }
 
 .dropdown-link a:hover {
-  background-color: rgb(240, 145, 181);
+  background-color:#5bb3aa;
 }

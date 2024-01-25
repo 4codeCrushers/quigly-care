@@ -1,4 +1,6 @@
 {
   "title": "About Us",
-  "content": "At QuiglyCare, we understand the importance of compassionate and reliable care for your loved ones. With our comprehensive range of services, we provide a nurturing and supportive environment that enhances their well-being. Explore the possibilities with QuiglyCare and experience personalized care tailored to your unique needs."
+  "content": "At QuiglyCare, we understand the importance of compassionate and reliable care for your loved ones. \n\nWith our comprehensive range of services, we provide a nurturing and supportive environment that enhances their well-being. Explore the possibilities with QuiglyCare and experience personalized care tailored to your unique needs. \n\nScroll down to find out more",
+  "images": ["aboutUsImgOne.jpg", "aboutUsImgTwo.jpg", "aboutUsImgThree.jpg"],
+  "headerImage": "aboutUsHeaderImg.jpg"
 }

@@ -1,7 +1,8 @@
 /* Default styles */
 .faq-container {
     background-color: #FBE7C6;
-    padding: 20px 0 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
     height: fit-content;
     display: flex;
     flex-direction: column;

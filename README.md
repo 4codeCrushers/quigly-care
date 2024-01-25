@@ -8,9 +8,9 @@ QuiglyCare is a user-friendly web application designed to offer seamless access 
 
 Additional sections include:
 
-- Meet the Team — which provides insights into each team member including names, roles, brief descriptions and photos to allow users to connect with the team on a personal level.
+- Meet the Team — This provides insights into each team member including names, roles, brief descriptions, and photos to allow users to connect with the team on a personal level.
 
-- FAQs — where users will find clear and concise instructions on utilising the booking feature, along with step-by-step guidance and essential details to facilitate a smooth booking process.
+- FAQs — where users will find clear and concise instructions on utilizing the booking feature, along with step-by-step guidance and essential details to facilitate a smooth booking process.
 
 - Services — which provides detailed information on the types of care available, pricing details, and any special offerings or packages.
 

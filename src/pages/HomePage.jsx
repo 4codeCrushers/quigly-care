@@ -1,3 +1,4 @@
+import './HomePage.css';
 import AboutUs from '../components/AboutUs';
 import ContactForm from '../components/ContactForm';
 import NavBar from '../components/NavBar';
@@ -8,7 +9,7 @@ import Hero from '../components/Hero';
 
 function HomePage() {
   return (
-    <div>
+    <div className="home-page">
       <NavBar />
       <div className="sections">
         <Hero />

@@ -5,8 +5,7 @@ function Hero() {
   return (
     <div className="hero">
       <Container>
-        <h1 className="hero-heading">Welcome to my portfolio!</h1>
-        <p className="hero-text">This is a React application built using React Bootstrap.</p>
+        <h1 className="hero-heading">Welcome to Quigly Care!</h1>
       </Container>
     </div>
   );

@@ -22,3 +22,56 @@
   max-height: 320px;
   object-fit: cover;
 }
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .services-container {
+    padding: 10px 0 30px 0px;
+  }
+
+  .col-sm-3 {
+    margin-bottom: 10px;
+  }
+
+  .services-tab {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .services-tab img {
+    max-width: 100%;
+    max-height: auto;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+
+  .card-img-top {
+    max-height: 200px;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 400px) {
+  .services-container {
+    padding: 10px 0 30px 0px;
+  }
+
+  .col-sm-3 {
+    margin-bottom: 10px;
+  }
+
+  .services-tab {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .services-tab img {
+    max-width: 100%;
+    max-height: auto;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+
+  .card-img-top {
+    max-height: 200px;
+  }
+}

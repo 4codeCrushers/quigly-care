@@ -1,0 +1,13 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: 6%;
+  margin-top: 100px;
+}

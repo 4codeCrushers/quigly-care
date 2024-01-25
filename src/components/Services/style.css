@@ -1,27 +1,27 @@
-.team-section-heading {
-  margin-bottom: 20px;
-}
-
 .services-container {
-  margin-bottom: 30px;
+  padding: 50px 0;
+  background: #fff;
+  background-color: rgb(226, 244, 180);
+  border-bottom: 5px solid black;
+  height: fit-content;
 }
 
-.services-tab {
-  display: flex;
-  align-items: center;
-}
-  
-.nav-pills .nav-link {
-  margin-bottom: 10px;
+.row {
+  position: sticky;
+  top: 0;
 }
 
-.services-tab img {
-  max-width: 400px;
-  max-height: 400px;
-  margin-right: 20px;
+.nav-link {
+  color: #000;
+  font-weight: bold;
 }
-  
-.card-img-top {
-  max-height: 320px;
-  object-fit: cover;
+
+.nav-pills {
+  --bs-nav-pills-border-radius: var(--bs-border-radius);
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: #887BB0;
+}
+
+.nav-link:hover {
+  color: #53989d;
 }

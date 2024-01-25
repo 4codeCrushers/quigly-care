@@ -27,8 +27,8 @@ const NavBar = () => {
   };
 
   return (
-    <div className="navbar-container" id=" navbar">
-      <Navbar className="bg-dark-subtle navbar">
+    <div className="navbar-container" id="navbar">
+      <Navbar className="navbar">
         <Container>
           <Navbar.Brand href="#home">
             <img
@@ -41,7 +41,7 @@ const NavBar = () => {
           </Navbar.Brand>
           <Container className="d-flex justify-content-end">
             <div>
-              <button type="button" className="btn btn-primary enquire-button" onClick={toggleContactForm}>
+              <button type="button" className="btn btn-info enquire-button" onClick={toggleContactForm}>
                 Enquire Now
               </button>
             </div>

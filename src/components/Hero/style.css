@@ -1,0 +1,25 @@
+.hero {
+  background-color: #F4B9B8;
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  border-bottom: 5px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+hero-heading {
+  font-size: 3rem;
+
+  margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  .hero {
+    height: 453px;
+    padding-top: 20px;
+  }
+}

@@ -5,7 +5,7 @@ import './style.css';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Dropdown = ({ isOpen }) => {
-  const [open, setOpen] = useState(false);
+  const [_, setOpen] = useState(false);
 
   const handleItemClick = () => {
     setOpen(false);

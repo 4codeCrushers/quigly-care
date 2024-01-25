@@ -3,6 +3,7 @@
   background: #fff;
   background-color: rgb(226, 244, 180);
   border-bottom: 5px solid black;
+  height: fit-content;
 }
 
 .row {

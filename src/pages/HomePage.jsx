@@ -6,6 +6,7 @@ import Team from '../components/Team';
 import Services from '../components/Services';
 import Faq from '../components/Faq';
 import Hero from '../components/Hero';
+import Footer from '../components/Footer';
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
         <ContactForm />
         <Faq />
       </div>
+      <Footer />
     </div >
   );
 }

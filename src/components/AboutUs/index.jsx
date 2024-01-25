@@ -7,7 +7,7 @@ function AboutUs() {
   const imagePath = '/assets/images/';
 
   return (
-    <div className="about-us"> 
+    <div className="about-us" id="about">
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <div className="about-us-content">

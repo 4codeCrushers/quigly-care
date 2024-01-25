@@ -1,3 +1,4 @@
+/* contact form styling with high Z index */
 .contact-form-container {
   position: fixed;
   top: 0;
@@ -30,6 +31,7 @@
 
 }
 
+/* show/hide form */
 .contact-form-container.visible {
   display: block;
 }
@@ -62,6 +64,7 @@ body.hidden-contact-form {
   color: black;
 }
 
+/* success styling */
 #success-message {
   color: green;
   font-size: 2vmin;

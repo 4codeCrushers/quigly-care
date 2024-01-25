@@ -1,13 +1,16 @@
+/* styling for navbar */
 .navbar-container {
     background-color: white;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
   }
-  
+
+/* contact form button styling */
 .enquire-button {
     margin-right: 20px;
     margin-top: 5px;
     color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
   
 .enquire-button:hover {

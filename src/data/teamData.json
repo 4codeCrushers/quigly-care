@@ -1,14 +1,23 @@
 {
   "slideOne": {
     "title": "Jane Smith",
-    "content": "Meet Jane, a compassionate and dedicated caregiver with a passion for providing exceptional patient care."
+    "content": "Meet Jane, a compassionate and dedicated caregiver with a passion for providing exceptional patient care.",
+    "image": {
+      "alt": "a nurse smiling while holding a door open"
+  }
   },
   "slideTwo": {
     "title": "Mandy Wright",
-    "content": "Introducing Amanda, a highly skilled and knowledgeable caregiver committed to excellence in everything she does."
+    "content": "Introducing Amanda, a highly skilled and knowledgeable caregiver committed to excellence in everything she does.",
+    "image": {
+      "alt": "a nurse smiling with her arms crossed"
+    }
   },
   "slideThree": {
     "title": "Emily Green",
-    "content": "Say hello to Emily, an empathetic carer who goes above and beyond to make a difference in the lives of her patients."
+    "content": "Say hello to Emily, an empathetic carer who goes above and beyond to make a difference in the lives of her patients.",
+    "image": {
+      "alt": "a doctor sat at a desk smiling"
+    }
   }
 }

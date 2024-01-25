@@ -18,7 +18,7 @@ function AboutUs() {
               </div>
             ))}
           </div>
-          <img src={`${imagePath}${aboutUsData.headerImage}`} alt="About Us Header Image" className="img-fluid" />
+          <img src={`${imagePath}${aboutUsData.headerImage}`} alt="An image of two women smiling" className="img-fluid" />
         </div>
       </div>
 

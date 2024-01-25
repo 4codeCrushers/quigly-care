@@ -1,3 +1,4 @@
+/* styling for services section */
 .services-container {
   padding: 50px 0;
   background: #fff;
@@ -11,6 +12,7 @@
   top: 0;
 }
 
+/* styling for tabs */
 .nav-link {
   color: #000;
   font-weight: bold;
@@ -22,6 +24,7 @@
   --bs-nav-pills-link-active-bg: #887BB0;
 }
 
+/* colour change on hover */
 .nav-link:hover {
   color: #53989d;
 }

@@ -8,6 +8,7 @@
   display: block;
 }
 
+/* dropdown link */
 .dropdown-link {
   display: flex;
   flex-direction: column;
@@ -28,6 +29,7 @@
   text-align: center;
 }
 
+/* colour change for dropdown hover */
 .dropdown-link a:hover {
   background-color:#5bb3aa;
 }

@@ -1,3 +1,4 @@
+/* styling for team section */
 .team {
   background-color: #AFD8F2;
   padding: 0 0 20px 0;
@@ -14,6 +15,7 @@
   margin-bottom: 20px;
 }
 
+/* styling for carousel */
 .carousel-container {
   position: relative;
   width: 75%;
@@ -54,6 +56,7 @@
   display: none;
 }
 
+/* responsive styling */
 @media (max-width: 768px) {
 
   .carousel-item-one,

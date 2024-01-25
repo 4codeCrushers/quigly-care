@@ -6,10 +6,6 @@ QuiglyCare is a dynamic care service application that allows users to learn more
 
 QuiglyCare is a user-friendly web application designed to offer seamless access to a range of dedicated care services. Upon entering the home page, users can easily navigate through the navigation bar, which provides direct links to different sections of the website.
 
-For those seeking drop-in care appointments, the Calendar section displays the availability of QuiglyCare team members and is integrated with the team's Google Calendar. This allows users to effortlessly schedule appointments. 
-
-Upon submitting a booking, users receive a confirmation email with appointment details and a notification is sent to the relevant person, ensuring efficient communication.
-
 Additional sections include:
 
 - Meet the Team — which provides insights into each team member including names, roles, brief descriptions and photos to allow users to connect with the team on a personal level.
@@ -17,6 +13,12 @@ Additional sections include:
 - FAQs — where users will find clear and concise instructions on utilising the booking feature, along with step-by-step guidance and essential details to facilitate a smooth booking process.
 
 - Services — which provides detailed information on the types of care available, pricing details, and any special offerings or packages.
+
+Planned future sections include:
+
+Calendar section — For those seeking drop-in care appointments, the Calendar section displays the availability of QuiglyCare team members and is integrated with the team's Google Calendar. This allows users to effortlessly schedule appointments. 
+
+Upon submitting a booking, users receive a confirmation email with appointment details and a notification is sent to the relevant person, ensuring efficient communication.
 
 ### User Story 
 
@@ -39,14 +41,11 @@ Enquiry Form -
 About Us - 
 
 ![](public/assets/images/ReadMeAboutUs.png)
+![](public/assets/images/ReadMeAboutUsTwo.png)
 
 Services - 
 
 ![](public/assets/images/ReadMeServices.png)
-
-Booking Calendar - 
-
-TBC
 
 Meet the Team - 
 
@@ -54,7 +53,11 @@ Meet the Team -
 
 FAQs - 
 
-TBC
+![](public/assets/images/ReadMeFaq.png)
+
+Footer -
+
+![](public/assets/images/ReadMeFooter.png)
 
 ## Technologies
 
@@ -71,7 +74,7 @@ QuiglyCare utilises the Web3Forms API to add functionality to the applications e
 - Documentation on the Web3Forms API can be found <a href="https://docs.web3forms.com/">here</a>.
 - A new Web3Forms access key can be created <a href="https://web3forms.com/#start">here</a>.
 
-The Google Calendar API is also utilised to sync the QuiglyCare application calendar with the calendars of care staff. This enables available appointments to show for users visiting the site.
+The Google Calendar API will be utilised in the future to sync the QuiglyCare application calendar with the calendars of care staff. This will enable available appointments to show for users visiting the site.
 
 - Documentation for the Google Calendar API can be found <a href="https://developers.google.com/calendar/api/guides/overview">here</a>.
 

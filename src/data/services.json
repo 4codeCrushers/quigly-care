@@ -4,55 +4,82 @@
         "id": "tab1",
         "title": "Administration of Medicines",
         "content": "Our qualified caregivers are proficient in managing medication schedules, ensuring the right dosage at the right time.",
-        "image": "assets/images/tabOneImage.jpg"
+        "image": {
+          "src": "/assets/images/tabOneImage.jpg",
+          "alt": "a nurse holding a stethoscope against a mans chest"
+        }
       },
       {
         "id": "tab2",
         "title": "Personal Care",
         "content": "From catheter care to stoma and peg feeding, we provide discreet and compassionate assistance with personal hygiene and specialised medical needs.",
-        "image": "assets/images/tabTwoImage.jpg"
+        "image": {
+          "src": "/assets/images/tabTwoImage.jpg",
+          "alt": "a nurse and a man smiling"
+        }
       },
       {
         "id": "tab3",
         "title": "Hoisting and Mobility Support",
         "content": "Our skilled professionals are trained in safe hoisting techniques, including track systems, to facilitate mobility and independence.",
-        "image": "assets/images/tabThreeImage.jpg"
+        "image": {
+          "src": "/assets/images/tabThreeImage.jpg",
+          "alt": "a close up of a man in a wheelchair"
+        }
       },
       {
         "id": "tab4",
         "title": "Dementia Care",
         "content": "We have expertise in all stages of dementia, providing customised care plans to address cognitive, emotional, and physical needs.",
-        "image": "assets/images/tabFourImage.jpg"
+        "image": {
+          "src": "/assets/images/tabFourImage.jpg",
+          "alt": "two women holding hands and smiling"
+        }
       },
       {
         "id": "tab5",
         "title": "Palliative Care",
         "content": "Palliative Care: Our empathetic team offers specialised care for individuals with advanced illnesses, focusing on comfort, pain management, and emotional support.",
-        "image": "assets/images/tabFiveImage.jpg"
+        "image": {
+          "src": "/assets/images/tabFiveImage.jpg",
+          "alt": "a close up of two women holding hands"
+        }
       },
       {
         "id": "tab6",
         "title": "Disabilities and Conditions",
         "content": "QuiglyCare is experienced in supporting a wide range of disabilities and conditions, tailoring care plans to promote independence and well-being.",
-        "image": "assets/images/tabSixImage.jpg"
+        "image": {
+          "src": "/assets/images/tabSixImage.jpg",
+          "alt": "a nurse performing physiotherapy on a patient"
+        }
       },
       {
         "id": "tab7",
         "title": "Food Preparation",
         "content": "We understand the importance of nutritious meals and can assist with meal planning, preparation, and special dietary needs.",
-        "image": "assets/images/tabSevenImage.jpg"
+        "image": {
+          "src": "/assets/images/tabSevenImage.jpg",
+          "alt": "an image of vegetables on a chopping board"
+        }
       },
       {
         "id": "tab8",
         "title": "Administrative Duties",
         "content": "Our caregivers can lend a hand with administrative tasks, such as appointment scheduling, medication management, and coordination of healthcare services.",
-        "image": "assets/images/tabEightImage.jpg"
+        "image": {
+          "src": "/assets/images/tabEightImage.jpg",
+          "alt": "a carer walking with an elderly patient"
+        }
       },
       {
         "id": "tab9",
         "title": "Companionship and Friendship",
         "content": "Beyond caregiving, we provide companionship and foster meaningful relationships, ensuring your loved ones have social interaction and emotional support.",
-        "image": "assets/images/tabNineImage.jpg"
+        "image": {
+          "src": "/assets/images/tabNineImage.jpg",
+          "alt": "a carer hugging a patient"
+        }
       }
     ]
 }

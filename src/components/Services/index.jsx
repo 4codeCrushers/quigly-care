@@ -29,7 +29,7 @@ function Services() {
               {servicesData.tabs.map(tab => (
                 <Tab.Pane key={tab.id} eventKey={tab.id}>
                   <Card>
-                    <Card.Img variant="top" src={tab.image} />
+                  <Card.Img variant="top" src={tab.image.src} alt={tab.image.alt}/>
                     <Card.Body>
                       <Card.Title>{tab.title}</Card.Title>
                       <Card.Text>{tab.content}</Card.Text>

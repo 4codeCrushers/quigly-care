@@ -10,6 +10,11 @@
 
 .nav-pills .nav-link {
   margin-bottom: 10px;
+  color: brown; /* Change nav-item colour to brown */
+}
+
+.nav-pills .nav-link.active {
+  background-color: mustard; /* Change nav-item background colour when clicked to mustard */
 }
 
 .services-tab img {
@@ -21,6 +26,12 @@
 .card-img-top {
   max-height: 320px;
   object-fit: cover;
+}
+
+.nav-pills {
+  --bs-nav-pills-border-radius: var(--bs-border-radius);
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: #e7ae51;
 }
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {

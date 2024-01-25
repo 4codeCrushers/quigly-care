@@ -5,4 +5,9 @@
 .enquire-button {
   margin-right: 20px;
   margin-top: 5px;
+  color: black;
+}
+
+.enquire-button:hover {
+  color: white;
 }
